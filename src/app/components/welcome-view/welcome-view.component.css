@@ -1,0 +1,30 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+/* welcome-view.component.css */
+/* welcome-view.component.css */
+.container {
+  background-color: purple;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  background-color: white;
+  color: purple;
+  margin-top: 10px;
+}
+
+/* app.component.css */
+body {
+  background-color: purple;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
