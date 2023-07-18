@@ -21,7 +21,7 @@
 .welcome-container {
   background-image: url('src/assets/flota.png');
   background-size: cover;
- 
+  margin-top: -20px; /* Ajusta el valor negativo para subir el contenedor */
 }
 
 @media (max-width: 767px) {
@@ -29,3 +29,38 @@
     background-size: contain;
   }
 }
+
+.lottie-container {
+  width: 80%;
+  height: 80%;
+  margin-top: -20px; /* Ajusta el valor negativo para subir el lottie */
+}
+
+.text-white {
+  margin-top: -30px; /* Ajusta el valor negativo para subir la bienvenida */
+}
+
+
+@media (max-width: 767px) {
+  .welcome-container {
+    background-size: contain;
+  }
+
+  .lottie-container {
+    width: 80%;
+    height: 60%;
+    margin-top: -40px; /* Ajusta el valor negativo para subir el lottie */
+  }
+
+  .text-white {
+    margin-top: -30px; /* Ajusta el valor negativo para subir el texto */
+    font-size: 24px; /* Ajusta el tamaño de fuente para dispositivos móviles */
+  }
+
+  .btn {
+    margin-top: -10px; /* Ajusta el valor negativo para subir el botón */
+  }
+}
+
+
+

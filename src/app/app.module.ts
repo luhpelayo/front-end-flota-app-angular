@@ -4,8 +4,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { WelcomeViewComponent } from './components/welcome-view/welcome-view.component';
+//esto para usar lottie
+import { LottieModule } from 'ngx-lottie';
+import player from 'lottie-web';
 
-
+export function playerFactory() {
+  return player;
+}
+//hasta aqui
 @NgModule({
   declarations: [
     AppComponent,
@@ -13,7 +19,8 @@ import { WelcomeViewComponent } from './components/welcome-view/welcome-view.com
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    LottieModule.forRoot({ player: playerFactory }), //esta linea agregue para lottie
   ],
   providers: [],
   bootstrap: [AppComponent]
