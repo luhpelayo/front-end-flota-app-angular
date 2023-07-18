@@ -7,6 +7,7 @@ import { WelcomeViewComponent } from './components/welcome-view/welcome-view.com
 //esto para usar lottie
 import { LottieModule } from 'ngx-lottie';
 import player from 'lottie-web';
+import { MenuComponent } from './components/menu/menu.component';
 
 export function playerFactory() {
   return player;
@@ -15,7 +16,8 @@ export function playerFactory() {
 @NgModule({
   declarations: [
     AppComponent,
-    WelcomeViewComponent
+    WelcomeViewComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,

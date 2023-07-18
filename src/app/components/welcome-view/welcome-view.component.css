@@ -33,7 +33,7 @@
 .lottie-container {
   width: 80%;
   height: 80%;
-  margin-top: -20px; /* Ajusta el valor negativo para subir el lottie */
+  margin-top: -100px; /* Ajusta el valor negativo para subir el lottie */
 }
 
 .text-white {

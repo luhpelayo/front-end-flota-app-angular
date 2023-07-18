@@ -8,4 +8,9 @@ body {
     justify-content: center;
     align-items: center;
   }
+
+
+  .navbar {
+    margin-top: 40px; /* Ajusta este valor según tu preferencia */
+  }
   
