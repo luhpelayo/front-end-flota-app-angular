@@ -1,6 +1,5 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
-/* welcome-view.component.css */
-/* welcome-view.component.css */
+
 .container {
   background-color: purple;
   color: white;
@@ -19,12 +18,14 @@
   margin-top: 10px;
 }
 
-/* app.component.css */
-body {
-  background-color: purple;
-  margin: 0;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.welcome-container {
+  background-image: url('src/assets/flota.png');
+  background-size: cover;
+ 
+}
+
+@media (max-width: 767px) {
+  .welcome-container {
+    background-size: contain;
+  }
 }
